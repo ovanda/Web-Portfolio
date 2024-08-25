@@ -1,0 +1,51 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -5rem;
+}
+
+#about .about-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#about .info {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 47rem;
+    padding: 0 2rem;
+    line-height: 1.3rem;
+    text-align: center;
+    box-sizing: boarder-box;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #about .about-heading {
+        text-align: center;
+        margin: 1.8rem auto 1rem;
+    }
+ 
+    #about .info {
+     font-weight: 400;
+     line-height: normal;
+    }
+
+    #about .info p {
+        font-size: 1.3rem;
+        margin: 0 auto;  
+    }
+}
+
+
+
+

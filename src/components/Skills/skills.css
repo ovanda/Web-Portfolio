@@ -1,0 +1,127 @@
+/**.skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.skillBars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: rem;
+}
+
+.skillBars > div {
+    background: rgb(50, 50, 50);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.skillBars > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skillBars .experience-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    margin: 0 auto;
+}
+
+
+.experience-details{
+    display: flex;
+    column-gap: 0.1rem;
+}
+
+.icon {
+    margin: 0.1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .skillBars {
+        grid-template-columns: 1fr;
+        width: 100%;
+        background: hotpink;
+        margin-top: 3rem;
+    }
+
+    .skillBars > div {
+        width: 90%;
+        margin-top: 0.3rem;   
+         
+    }
+
+    .skillBars .experience-content {
+        column-gap: 0.5rem;
+    }
+}**/
+
+
+
+
+.experience_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 49rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#experience h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.experience_container > div {
+    background: rgb(50, 50, 50);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+}
+
+.experience_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 0.3rem;
+}
+
+.experience_details{
+    display: flex;
+    column-gap: 0.3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .experience_container {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .experience_container > div {
+        width: 95%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+}
+
+
