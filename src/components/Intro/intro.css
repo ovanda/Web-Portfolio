@@ -1,0 +1,145 @@
+/*Intro Section*/
+#intro {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 5rem;
+    padding-bottom: 14rem;
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-right: 6rem;
+    overflow: hidden;
+    
+}
+
+
+#intro .container {
+    display: grid;
+    grid-template-columns: 5rem auto 28rem;
+    gap: 2rem;
+}
+
+#intro .container .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 1rem;
+    
+}
+
+#intro .container .socials a{
+    font-size: 1.2rem;
+    background: white;
+    color: gray;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#intro .container .socials a:hover {
+    background: #2f4f4f;
+    color: white;
+}
+
+#intro .container .bg {
+    object-fit: cover;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+}
+
+#intro .container .introContent h1{
+    text-align: left;
+    margin: 0;
+}
+
+#intro .container .introContent h3{
+    margin: 2.4rem 0 1rem;
+}
+
+#intro .container .introContent p {
+    width: 30rem;
+}
+
+
+/*==============END OF INTRO===============*/
+
+@media screen and (max-width: 600px) {
+    
+    #intro {
+       
+        padding-bottom: 7rem;
+        max-width: 100vw;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+
+    #intro .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 50%;
+        text-align: center;
+        row-gap: 6rem;
+        
+    }
+
+    #intro .container .socials {
+        display: none;
+    }
+
+    #intro .container .introContent {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #intro .container .introContent h1{
+        text-align: center;
+    }
+
+    #intro .container .introContent p{
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    #intro .container .introContent h3{
+        font-size: 1.7rem;
+
+    }
+
+
+    #intro .container .profile-area {
+        grid-row: 1;
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    #intro .container .profile-area .bg{
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .introContent h3, p {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    #intro {
+        margin: 0 auto;
+    }
+}
