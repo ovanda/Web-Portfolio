@@ -67,9 +67,9 @@
 @media screen and (max-width: 600px) {
 
     .contact {
-        width: 80%;
+        width: 50%;
         text-align: center;
-        margin: 0 auto 2rem;
+        margin: 0 auto 1rem;
         background: red;
     }
     .contact #contactdes {
