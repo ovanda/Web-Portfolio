@@ -41,10 +41,10 @@ const Contact = () => {
       <span id='contactdes'>Please fill out the form below to discuss any work opportunities.</span>
 
       <form className='contactForm' ref={form} onSubmit={sendEmail}>
-        <input type='text' className='name' placeholder='Your Name' name='user_name' />
-        <input type='email' className='email' placeholder='Your Email' name='user_email' />
-        <textarea name='message' role='5' placeholder='Your Message' className='msg'></textarea>
-        <button type='submit' value='Send Email' className='submitBtn'>Send Email</button>
+        <input type='text' className='name' placeholder='Your Name' name='user_name'  aria-required='true' aria-label='Your Name'/>
+        <input type='email' className='email' placeholder='Your Email' name='user_email' aria-required='true' aria-label='Your Email'/>
+        <textarea name='message'  placeholder='Your Message' className='msg' aria-required='true' aria-label='Message'></textarea>
+        <button type='submit' value='Send Email' className='submitBtn' aria-label='Submit'>Send Email</button>
 
 
         <div className='links'>

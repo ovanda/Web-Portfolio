@@ -21,7 +21,7 @@ section.recent-work  h1 {
 @media screen and (max-width: 600px) {
 
     section.recent-work .container {
-        width: 95%;
+        width: 90%;
         padding:2rem 1rem;
         margin: 2rem auto 0;
         border-radius: 2rem;
