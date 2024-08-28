@@ -1,17 +1,17 @@
 import React from 'react'
-//import './contact.css'
-//import { RiMessengerLine } from "react-icons/ri";
-//import { BsWhatsapp } from "react-icons/bs";
-//import { FaGithub } from "react-icons/fa";
-//import {useRef} from 'react';
-//import emailjs from '@emailjs/browser';
+import './contact.css'
+import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 
 
 
 const Contact = () => {
   
-  /*const form = useRef();
+const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,12 +32,12 @@ const Contact = () => {
       );
 
       e.target.reset();
-  };*/
+  };
 
 
   return (
-    <div>
-
+    <div className='contact'  id='contact'>
+      <h1 id='contact'>Contact Me</h1>
     </div>
   )
 }
