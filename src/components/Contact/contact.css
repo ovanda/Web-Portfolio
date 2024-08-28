@@ -68,6 +68,7 @@
 
     .contact {
         margin: 0 auto;
+        background: red;
     }
     .contact #contactdes {
         font-size: 1.2rem;
