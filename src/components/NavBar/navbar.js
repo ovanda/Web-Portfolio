@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <button className='desktopMenuBtn' onClick={()=> {
-        document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('contact-page').scrollIntoView({behavior: 'smooth'});
       }}>
         <img src={logo} alt='' className='desktopMenuImg'/>Contact Me
       </button>
