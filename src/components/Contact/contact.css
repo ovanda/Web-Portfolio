@@ -31,3 +31,15 @@
     width: 100%;
     max-width: 50rem;
 }
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 35rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
