@@ -35,7 +35,7 @@
 .name, .email, .msg {
     font-size: medium;
     width: 100%;
-    max-width: 20rem;
+    max-width: 18rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: white;
