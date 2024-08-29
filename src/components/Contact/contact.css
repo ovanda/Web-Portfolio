@@ -11,9 +11,9 @@
 }
 
 #contact-header {
-    font-weight: 400;
-    margin-bottom: 1rem;
     font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
 }
 
 #contactdes {
@@ -81,7 +81,7 @@
 
     .contactForm {
         margin: 0 auto;
-        width: 22rem;
+        width: 24rem;
     }
 
     #contact-paget #contactdes {
