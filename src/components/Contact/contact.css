@@ -1,0 +1,11 @@
+#contact-page {
+    width: 100vw;
+    max-width: 53rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: yellowgreen;
+}
