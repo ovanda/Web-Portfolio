@@ -121,7 +121,7 @@
     #intro .container .profile-area {
         grid-row: 1;
         width: 94%;
-        margin: 0 auto;
+        margin: 13px auto 0;
     }
 
     #intro .container .profile-area .bg{
