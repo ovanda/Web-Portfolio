@@ -1,17 +1,27 @@
-.contact {
+#contact-page {
     min-width: calc(100vh-4rem);
     width: 100vw;
-    max-width: 55rem;
-    margin: 3.5rem auto;
+    max-width: 53rem;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contact-header {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 3rem;
 }
 
 #contactdes {
     padding: 1rem;
-    font-size: medium;
-    font-weight: 300;;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .contactForm {
@@ -39,17 +49,18 @@
 .submitBtn {
     background: white;
     border: none;
+    margin: 2rem;
     border-radius: 0.5rem;
     padding: 0.75rem 3.5rem;
 }
 
-.contact .contactForm .links {
+#contact-page .contactForm .links {
     display: flex;
     gap: 1.6rem;
-    margin-top: 1rem;
+    margin-top: 0.1rem;
 }
 
-.contact .contactForm .links a {
+#contact-page .contactForm .links a {
     font-size: 1.4rem;
     background: white;
     color: gray;
@@ -66,17 +77,16 @@
 
 @media screen and (max-width: 600px) {
 
-    .contact {
-        width: 50%;
+    #contact-page {
         text-align: center;
         margin: 0 auto 1rem;
-        background: red;
+        
     }
-    .contact #contactdes {
+    #contact-paget #contactdes {
         font-size: 1.2rem;
     }
 
-    .contact .contactForm .links a {
+    #contact-page .contactForm .links a {
         display: flex;
     }
 }
