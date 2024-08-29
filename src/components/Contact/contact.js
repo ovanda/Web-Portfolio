@@ -33,6 +33,22 @@ const form = useRef();
 
       e.target.reset();
   };
+
+  return(
+    <div id='contact-page'>
+        <h1 id='contact-header'>Contact Me</h1>
+        <span id='contactdes'>Please fill out the form below to discuss any work opportunities.</span>
+        <form className='contactForm' ref={form} onSubmit={sendEmail}>
+        <input type='text' className='name' placeholder='Your Name' name='user_name'  aria-required='true' aria-label='Your Name'/>
+
+        <div className='links'>
+          <a href='https://m.me/victor.onyejekwe.75' target='blank'><RiMessengerLine /></a>
+          <a href='https://wa.me/2348035442507' target='blank'><BsWhatsapp /></a>
+          <a href='https://Github.com/urchvictor' target='blank'><FaGithub /></a>
+        </div>
+        </form>
+    </div>
+  )
 }
 
 export default Contact;
