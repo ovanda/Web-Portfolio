@@ -84,11 +84,20 @@
     background: rgb(30, 30, 30);
 }
 
+#name {
+    color: rgb(150, 150, 150);
+}
+
 @media screen and (max-width: 600px){
+
+    .navbar {
+        border-bottom: 1px solid rgb(150, 150, 150);
+    }
     .mobMenu {
         display: flex;
         height: 2rem;
         width: 2rem;
+        color: rgb(150, 150, 150);
     }
 
     .desktopMenu {
