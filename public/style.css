@@ -12,6 +12,7 @@ body {
     color: white;
     overflow: auto;
     overflow-x: scroll;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -34,7 +35,8 @@ body {
     
         h5 {
             font-size: 0.68rem;
-        }
+            }
+    }
 }
 
 
@@ -49,4 +51,3 @@ body {
 
 
 
-[
