@@ -56,5 +56,32 @@
     display: flex;
     gap: 1.6rem;
     margin-top: 0.1rem;
-    background: greenyellow;
+}
+
+#contact-page .contactForm .links a {
+    font-size: 1.4rem;
+    background: white;
+    color: gray;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+
+    #contact-page .contactForm .links a {
+        display: flex;
+    }
+
+    .contactForm {
+        margin: 0 auto;
+        width: 22rem;
+    }
+    
 }
