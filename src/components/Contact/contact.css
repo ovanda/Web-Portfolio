@@ -9,3 +9,9 @@
     justify-content: center;
     background: yellowgreen;
 }
+
+#contact-header {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
