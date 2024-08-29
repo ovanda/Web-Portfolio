@@ -1,6 +1,6 @@
 #contact-page {
-    width: 100vw;
-    max-width: 53rem;
+    width: 80vw;
+    max-width: 51rem;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -27,4 +27,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 50rem;
+    background-color: aliceblue;
 }
