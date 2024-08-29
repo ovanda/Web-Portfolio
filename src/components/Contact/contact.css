@@ -35,11 +35,19 @@
 .name, .email, .msg {
     font-size: medium;
     width: 100%;
-    max-width: 18rem;
+    max-width: 35rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: white;
     border: none;
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
 }
