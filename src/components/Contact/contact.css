@@ -83,5 +83,9 @@
         margin: 0 auto;
         width: 22rem;
     }
+
+    #contact-paget #contactdes {
+        font-size: 1.2rem;
+    }
     
 }
