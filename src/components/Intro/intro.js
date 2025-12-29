@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css' 
-import victor from '../../assests/victor.jpg';
+import victor from '../../assests/myPicture2.jpg';
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -21,7 +21,8 @@ const Intro = () => {
       <div className='introContent'>
         <h1>Full Stack Web Developer</h1>
         <h3>Hi, i'm <span id='name'>victor</span>.</h3>
-        <p>I am a skilled web Designer with experience in creating visually appealing and user friendly websites.</p>
+        <p>I am a skilled web Designer with experience in creating visually appealing and user 
+          friendly websites.</p>
       </div>
 
    

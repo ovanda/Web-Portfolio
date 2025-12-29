@@ -16,11 +16,8 @@ const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_sdtdxpj', 'template_sxtfyml', form.current, {
-        publicKey: 'IGGTamXk_XBi56-8_',
-      })
-      .then(
-        () => {
+    emailjs.sendForm('service_sdtdxpj', 'template_sxtfyml', form.current, {publicKey: 'IGGTamXk_XBi56-8_',})
+      .then(() => {
           console.log('SUCCESS!');
           alert('Your Message was sucessfuly sent,Thanks for Reaching out.')
         },
